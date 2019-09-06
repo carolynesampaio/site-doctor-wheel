@@ -1,0 +1,295 @@
+/*LIMPAR CONFIGURAÇÃO PADÃO*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*barra de navegação*/
+
+.logo {
+	width: 20px;
+}
+
+.navbar-brand {
+	width: 25px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #DADAE6;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #8E94EF;
+}
+/*banner*/
+
+.banner {
+	margin: 60px auto 60px auto;
+	width: 100%;
+	border-bottom: 8px solid #212529;
+}
+
+.col-xs-12 .col-sm-12 .col-md-9 {
+	border: 10px dotted blue;
+}
+
+.post-resumo {
+	max-width: 100%;
+}
+
+/*POSTS GERAL*/
+
+h1 {
+	color: #404040;
+}
+
+.post-autor-info {
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	float: left;
+}
+
+.post-data {
+	width: 100%;
+	font-family: "BwSurcoLight";
+	letter-spacing: 0.5px;
+	margin: 0px;
+	padding-bottom: 0px;
+	font-size: 11pt;
+	position: relative;
+	line-height: 1.0em;
+}
+
+.post-nome-autor {
+	width: 100%;
+	font-family: "BwSurcoLight";
+	letter-spacing: 0.5px;
+	font-size: 14pt;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	color: #003B6F;
+	font-weight: 350;
+}
+
+.img-post {
+	max-width: 100%;
+	
+}
+
+.texto-resumo-post {
+	font-family: sans-serif;
+	font-size: 13pt;
+	font-weight: 250;
+}
+
+p {
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}   
+
+
+/*sidebar*/
+
+#sidebar {
+	display: block
+}
+
+.quem-escreve {
+	width: 100%;
+	padding: 5px 0px 0px 0px;
+	font-family: sans-serif;
+	font-size: 12pt;
+	margin-top: 
+}
+
+ ul.lista-redes {
+    list-style-type:none;
+    padding: 0px 10px 15px 10px;
+ 	display: inline;
+ 	text-align: center;
+
+ }
+
+ li.redes{
+ 	padding: 0px 10px 15px 10px;
+ 	margin: 0px;
+ 	display: inline;
+ 	text-align: center;
+ }
+
+ .imagem-perfil {
+ 	text-align: center;
+ 	padding-top: 20px;
+ }
+
+ /*redes sociais*/
+
+.fab {
+	font-size: 25px;
+	text-decoration: none;
+	color: #343a40;
+	margin: 0px;
+	padding: 0px;
+}
+
+.lista-redes {
+	/*text-decoration: none;*/
+	color: #003B6F;
+	display: inline;
+}
+
+.redes-sociais {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.resumo-autor {
+	margin: 0px 10px 0px 0px;
+	text-align: center;
+}
+
+/*lista de favoritos*/
+
+h4 {
+	text-align: center;
+	font-size: 16px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.barra-fav {
+	list-style-type: none;	
+}
+
+.site-fav {
+	text-align: left;
+	margin: 15px;
+	font-weight: 500;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.sites-favoritos .barra-fav .site-fav a{
+	text-decoration: none;
+	color: #212529;
+}
+
+.sites-favoritos .barra-fav .site-fav a:hover{
+	text-decoration: none;
+	color: #003B6F;
+}
+
+.sites-favoritos {
+	margin-bottom: 127px;
+	margin-top: 50px;
+}
+
+/*publicidade lateral*/
+
+.publi-lateral {
+	max-width: 100%;
+}
+
+/*posts pequenos*/
+
+.post-pqn {
+	max-width: 100%;
+	text-align: left;
+	margin-top: 30px;; 
+}
+
+.imagem-post-pqn {
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.titulo-post {
+	font-size: 15pt;
+}
+
+.autor-info {
+	color: #9f9f9f;
+	font-size: 10pt;
+	font-weight: 600;
+}
+
+.fa-calendar-alt {
+	margin-right: 5px;
+}
+
+.fa-user-edit {
+	margin-right: 5px;
+}
+.nome-autor {
+	padding-left: 10px;
+}
+
+.leia-mais {
+	text-decoration: none;
+	color: #9f9f9f;
+}
+
+.leia-mais:hover {
+	text-decoration: none;
+	font-weight: 500;
+	color: #212529;
+}
+
+/*RODAPE*/
+
+/*.rodape {
+	background-color: #212529;
+	height: 150px;
+	margin-top: 80px;
+	*/
+}
+
+.newsletter {
+	color: #FAFAFA;
+	font-size: 3rem;
+	font-weight: 500;
+	margin-right: 20px;
+}
+
+h6 {
+	font-size: 14pt;
+	line-height: 0.1;
+}
+
+.form-control {
+	margin-left: 10px; 
+}
+
+.page-footer {
+	background-color: #212529;
+	color: #fff;
+	margin-top: 30px;
+}
+
+.assinar {
+	margin-left: 5px;
+}
+
+.form-align {
+	vertical-align: center;
+}
+
+.fa-accessible-icon {
+	color: #FAFAFA;
+	margin-right: 15px;
+}
+
+.vertical {
+	margin-top: 37px;
+}
+
+.footer-copyright a {
+	text-decoration: none;
+	color: #BDBDBD;
+}
+
+.footer-copyright a:hover {
+	color: #003B6F;
+}
